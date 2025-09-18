@@ -1,14 +1,12 @@
-import './App.css'
-import { itemlistcontainer } from './components/itemlistcontainer'
-import { navbar } from './components/navbar'
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
     <>
-    <navbar />
-    <itemlistcontainer saludo="Bienvenidos!" />
+      <NavBar />
+      <ItemListContainer props="¡Bienvenid@ a Regalería Tati!" />
     </>
   );
 }
-
-export default App
+export default App;
