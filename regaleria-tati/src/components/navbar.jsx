@@ -12,7 +12,7 @@ function NavBar() {
                 borderBottom: "1px solid #eee",
                 position: "sticky",
                 top: 0,
-                background: "#f5a9a9ff",
+                background: "#f9cfcfff",
             }}
         >
         <a href="#" style={{ display: "flex", alignItems: "center", gap: ".75rem", textDecoration: "none", color: "inherit" }}>
